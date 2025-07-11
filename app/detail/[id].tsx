@@ -16,7 +16,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
 import { Ionicons, Feather, MaterialCommunityIcons } from "@expo/vector-icons";
 
-// Palet Warna & Konstanta
 const COLORS = {
   background: "#121212",
   accent: "#009B77",
@@ -30,7 +29,6 @@ const COLORS = {
 };
 const API_KEY = "b45dad4f";
 
-// Definisikan Tipe Data untuk detail film
 type MovieDetail = {
   Title: string;
   Year: string;
@@ -57,7 +55,6 @@ type MovieDetail = {
   Website: string;
 };
 
-// Komponen Kecil untuk Informasi
 type InfoPillProps = {
   icon: React.ComponentProps<typeof Ionicons>["name"];
   text: string;
